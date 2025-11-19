@@ -1,0 +1,47 @@
+{
+  "background_path": "image/background/bg_5_02.png",
+  "title_path": "image/title/title_6.png",
+  "bgm_path": "image/bgm/bgm_6_1.png",
+  "text_path": "text/talk_5_1_2.txt",
+  "game_board_path": "image/else/game_board_1.png",
+  "char_colors": {
+    "10": [198, 51, 54],
+    "2": [255, 165, 0],
+    "6": [129, 76, 147]
+  },
+  "characters": {
+    "10": {
+      "side": "left",
+      "start_x": -320,
+      "enter_target_x": -20,
+      "leave_target_x": -320,
+      "pos_y": 150,
+      "enter_speed": 25,
+      "leave_speed": 25
+    },
+    "6": {
+      "side": "right",
+      "start_x": 550,
+      "enter_target_x": 200,
+      "leave_target_x": 550,
+      "pos_y": 175,
+      "enter_speed": 25,
+      "leave_speed": 25
+    } 
+  },
+  "triggers": {
+    "char_6_enter": {
+      "trigger_text": "啊！",
+      "char_idx": 6
+    },
+    "title": {
+      "trigger_text": "其实我是做侦探的……专门帮人寻找丢失的物品的那种",
+      "speaker": 6
+    },
+    "bgm": {
+      "trigger_text": "——正好有个被你弄丢的东西需要你帮我找回来呢",
+      "speaker": 6
+    }
+  }
+}
+

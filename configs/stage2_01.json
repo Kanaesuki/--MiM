@@ -1,0 +1,56 @@
+{
+  "background_path": "image/background/bg_2_02.png",
+  "title_path": "image/title/title_2.png",
+  "bgm_path": "image/bgm/bgm_2_1.png",
+  "text_path": "text/talk_2_0_1.txt",
+  "game_board_path": "image/else/game_board_1.png",
+  "char_colors": {
+    "0": [90, 121, 255],
+    "2": [200, 170, 177],
+    "10": [198, 51, 54]
+  },
+  "characters": {
+    "0": {
+      "side": "left",
+      "start_x": -320,
+      "enter_target_x": -20,
+      "leave_target_x": -320,
+      "pos_y": 200,
+      "enter_speed": 25,
+      "leave_speed": 25
+    },
+    "10": {
+      "side": "left",
+      "start_x": -275,
+      "enter_target_x": 25,
+      "leave_target_x": -275,
+      "pos_y": 150,
+      "enter_speed": 25,
+      "leave_speed": 16
+    },
+    "2": {
+      "side": "right",
+      "start_x": 550,
+      "enter_target_x": 170,
+      "leave_target_x": 550,
+      "pos_y": 175,
+      "enter_speed": 25,
+      "leave_speed": 25
+    }
+  },
+  "triggers": {
+    "char_2_enter": {
+      "trigger_text": "赤红さん……",
+      "char_idx": 2
+    },
+    "title": {
+      "trigger_text": "赤红さん……",
+      "speaker": 2
+    },
+    "bgm": {
+      "trigger_text": "非常感谢！但是我们不是为了这个来的",
+      "speaker": 10
+    }
+  }
+}
+

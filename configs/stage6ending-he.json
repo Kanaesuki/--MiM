@@ -1,0 +1,24 @@
+{
+  "background_path": "image/ending/ending_01.png",
+  "title_path": "image/ending/ending_02.png",
+  "bgm_path": "image/ending/ending_03.png",
+  "text_path": "text/talk_ending_ge.txt",
+  "game_board_path": "image/else/game_board_empty.png",
+  "char_colors": {
+    "0": [90, 121, 255],
+    "5": [129, 76, 147],
+    "10": [198, 51, 54],
+    "11": [255, 255, 255]
+  },
+  "triggers": {
+    "title": {
+      "trigger_text": "一阵骚乱过后，羽初赤红似乎想起来什么事情",
+      "speaker": 11
+    },
+    "bgm": {
+      "trigger_text": "名与实，本来就不是那么确凿无比的东西吧",
+      "speaker": 11
+    }
+  }
+}
+

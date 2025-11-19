@@ -1,0 +1,14 @@
+{
+  "background_path": "image/ending/be.png",
+  "title_path": "image/ending/ending_02.png",
+  "bgm_path": "image/ending/ending_03.png",
+  "text_path": "text/talk_ending_be.txt",
+  "game_board_path": "image/else/game_board_empty.png",
+  "char_colors": {
+    "0": [90, 121, 255],
+    "5": [129, 76, 147],
+    "10": [198, 51, 54],
+    "11": [255, 255, 255]
+  }
+}
+

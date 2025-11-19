@@ -1,0 +1,56 @@
+{
+  "background_path": "image/background/bg_7_01.png",
+  "title_path": "image/title/title_7.png",
+  "bgm_path": "image/bgm/bgm_7_1.png",
+  "text_path": "text/talk_7_0_1.txt",
+  "game_board_path": "image/else/game_board_1_ex.png",  
+  "char_colors": {
+    "0": [90, 121, 255],
+    "8": [171, 171, 171],
+    "10": [198, 51, 54]
+  },
+  "characters": {
+    "0": {
+      "side": "left",
+      "start_x": -320,
+      "enter_target_x": -20,
+      "leave_target_x": -320,
+      "pos_y": 200,
+      "enter_speed": 25,
+      "leave_speed": 25
+    },
+    "8": {
+      "side": "right",
+      "start_x": 550,
+      "enter_target_x": 170,
+      "leave_target_x": 550,
+      "pos_y": 175,
+      "enter_speed": 25,
+      "leave_speed": 25
+    },
+    "10": {
+      "side": "left",
+      "start_x": -320,
+      "enter_target_x": 25,
+      "leave_target_x": -320,
+      "pos_y": 150,
+      "enter_speed": 25,
+      "leave_speed": 25
+    }
+  },
+  "triggers": {
+    "char_8_enter": {
+      "trigger_text": "明明已经没什么人",
+      "char_idx": 8
+    },
+    "title": {
+      "trigger_text": "不觉得实在",
+      "speaker": 8
+    },
+    "bgm": {
+      "trigger_text": "在疫病的痛苦中尽情挣扎",
+      "speaker": 8
+    }
+  }
+}
+

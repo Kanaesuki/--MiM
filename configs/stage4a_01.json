@@ -1,0 +1,78 @@
+{
+  "background_path": "image/background/bg_4_02.png",
+  "title_path": "image/title/title_4a.png",
+  "bgm_path": "image/bgm/bgm_4a_1.png",
+  "text_path": "text/talk_4_0_1.txt",
+  "game_board_path": "image/else/game_board_1.png",
+  "char_colors": {
+    "0": [90, 121, 255],
+    "4": [198, 51, 54],
+    "6": [129, 76, 147],
+    "10": [198, 51, 54]
+  },
+  "characters": {
+    "0": {
+      "side": "left",
+      "start_x": -320,
+      "enter_target_x": -20,
+      "leave_target_x": -320,
+      "pos_y": 200,
+      "enter_speed": 25,
+      "leave_speed": 25
+    },
+    "10": {
+      "side": "left",
+      "start_x": -275,
+      "enter_target_x": 25,
+      "leave_target_x": -275,
+      "pos_y": 150,
+      "enter_speed": 25,
+      "leave_speed": 16
+    },
+    "6": {
+      "side": "right",
+      "start_x": 550,
+      "enter_target_x": 170,
+      "leave_target_x": 550,
+      "pos_y": 175,
+      "enter_speed": 25,
+      "leave_speed": 25
+    },
+    "4": {
+      "side": "right",
+      "start_x": 550,
+      "enter_target_x": 170,
+      "leave_target_x": 550,
+      "pos_y": 150,
+      "enter_speed": 25,
+      "leave_speed": 25
+    }
+  },
+  "triggers": {
+    "char_6_leave": {
+      "trigger_text": "——什么？！",
+      "char_idx": 6
+    },
+    "char_10_leave": {
+      "trigger_text": "——什么？！",
+      "char_idx": 10
+    },
+    "char_4_enter": {
+      "trigger_text": "啊……你是……羽泽度芽……",
+      "char_idx": 4
+    },
+    "char_6_enter": {
+      "trigger_text": "怎么又碰到你们了",
+      "char_idx": 6
+    },
+    "title": {
+      "trigger_text": "我一直在寻找你",
+      "speaker": 4
+    },
+    "bgm": {
+      "trigger_text": "几百年间的孤独",
+      "speaker": 4
+    }
+  }
+}
+
