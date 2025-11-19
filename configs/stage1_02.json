@@ -1,0 +1,61 @@
+{
+  "background_path": "image/background/bg_1_02.png",
+  "title_path": "image/title/title_1.png",
+  "bgm_path": "image/bgm/bgm_1_1.png",
+  "text_path": "text/talk_1_0_2.txt",
+  "game_board_path": "image/else/game_board_1.png",
+  "char_colors": {
+    "0": [90, 121, 255],
+    "1": [255, 156, 159],
+    "2": [198, 51, 54],
+    "10": [198, 51, 54]
+  },
+  "characters": {
+    "0": {
+      "side": "left",
+      "start_x": -320,
+      "enter_target_x": -20,
+      "leave_target_x": -320,
+      "pos_y": 200,
+      "enter_speed": 25,
+      "leave_speed": 25
+    },
+    "10": {
+      "side": "left",
+      "start_x": -275,
+      "enter_target_x": 25,
+      "leave_target_x": -275,
+      "pos_y": 150,
+      "enter_speed": 25,
+      "leave_speed": 16
+    },
+    "1": {
+      "side": "right",
+      "start_x": 550,
+      "enter_target_x": 170,
+      "leave_target_x": 550,
+      "pos_y": 175,
+      "enter_speed": 25,
+      "leave_speed": 25
+    }
+  },
+  "triggers": {
+    "title": {
+      "trigger_text": "让您享受国王一般安稳的睡眠",
+      "speaker": 1
+    },
+    "bgm": {
+      "trigger_text": "那就别怪我不客气了",
+      "speaker": 10
+    },
+    "char_1_enter": {
+      "trigger_text": "哎呀……明明已经没什么",
+      "char_idx": 1
+    },
+    "char_1_leave": {
+      "trigger_text": "你——！！等着瞧",
+      "char_idx": 1
+    }
+  }
+}
+
